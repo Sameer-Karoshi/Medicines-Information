@@ -1,3 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <resources>
-    <string name="app_name">Text_Recognition_App</string>
+
+
+    <string name="app_name">MED INFO</string>
+
+    <string name="medicine_name">Medicine Name</string>
+    <string name="use">Use</string>
+    <string name="side_effects">Side Effects</string>
+    <string name="generic_name">Generic Name</string>
+    <string name="price">Price</string>
+    <string name="how_to_use_this_medicine">How To Use This Medicine? </string>
+    <string name="how_medicine_works">How Medicine Works?</string>
+    <string name="quick_tips">Quick Tips</string>
+    <string name="missed_dosage">Missed Dosage</string>
+    <string name="alternate_medicine">Alternate Medicine</string>
+    <string name="changeLang">Change Language</string>
+
 </resources>

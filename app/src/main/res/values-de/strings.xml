@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+
+    <string name="app_name">Texterkennungs-App</string>
+
+    <string name="medicine_name">Name der Medizin</string>
+    <string name="use">Verwenden</string>
+    <string name="side_effects">Nebenwirkungen</string>
+    <string name="generic_name">Gattungsbezeichnung</string>
+    <string name="price">Preis</string>
+    <string name="how_to_use_this_medicine">Wie benutzt man dieses Medikament? </string>
+    <string name="how_medicine_works">Wie funktioniert Medizin?</string>
+    <string name="quick_tips">Schnelle Tipps</string>
+    <string name="missed_dosage">Verpasste Dosierung</string>
+    <string name="alternate_medicine">Alternativmedizin</string>
+    <string name="changeLang">Sprache ändern</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+
+
+    <string name="app_name">मजकूर ओळख अ‍ॅप</string>
+
+    <string name="medicine_name">औषधाचे नाव</string>
+    <string name="use">वापर</string>
+    <string name="side_effects">दुष्परिणाम</string>
+    <string name="generic_name">सामान्य नाव</string>
+    <string name="price">किंमत</string>
+    <string name="how_to_use_this_medicine">हे औषध कसे वापरावे?</string>
+    <string name="how_medicine_works">औषध कसे कार्य करते?</string>
+    <string name="quick_tips">द्रुत टिपा</string>
+    <string name="missed_dosage">चुकलेला डोस</string>
+    <string name="alternate_medicine">वैकल्पिक औषध</string>
+    <string name="changeLang">भाषा बदला</string>
+
+</resources>

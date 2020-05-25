@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+
+
+    <string name="app_name">टेक्स्ट रिकग्निशन ऐप</string>
+
+    <string name="medicine_name">दवा का नाम</string>
+    <string name="use">उपयोग</string>
+    <string name="side_effects">दुष्प्रभाव</string>
+    <string name="generic_name">सामान्य नाम</string>
+    <string name="price">कीमत</string>
+    <string name="how_to_use_this_medicine">इस दवा का उपयोग कैसे करें?</string>
+    <string name="how_medicine_works">कैसे काम करती है दवा?</string>
+    <string name="quick_tips">त्वरित सुझाव</string>
+    <string name="missed_dosage">छूटी हुई खुराक</string>
+    <string name="alternate_medicine">वैकल्पिक चिकित्सा</string>
+    <string name="changeLang">भाषा बदलो</string>
+
+</resources>
