@@ -2,7 +2,7 @@
 <resources>
 
 
-    <string name="app_name">MED INFO</string>
+    <string name="app_name">Pocket Pharmacist</string>
 
     <string name="medicine_name">Medicine Name</string>
     <string name="use">Use</string>
