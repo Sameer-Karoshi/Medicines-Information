@@ -6,8 +6,12 @@
         android:title="Add Image"
         app:showAsAction="always"
         android:icon="@drawable/ic_action_image"/>
+
     <item
-        android:id="@+id/settings"
-        android:title="Setting"/>
+        android:id="@+id/menu_chat"
+        android:title="Pocket Chat" />
+    <item
+        android:id="@+id/log_out"
+        android:title="Log Out"/>
 
 </menu>

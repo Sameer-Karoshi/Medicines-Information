@@ -15,5 +15,41 @@
     <string name="missed_dosage">Missed Dosage</string>
     <string name="alternate_medicine">Alternate Medicine</string>
     <string name="changeLang">Change Language</string>
+    <string name="need_a_new_account">Need A New Account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="display_name">Display Name</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="hi_there_i_am_using_pocket_chat_app">Hi there,I am using Pocket Chat app</string>
+    <string name="my_status">My Status</string>
+    <string name="update_your_status_here">Update Your Status Here</string>
+    <string name="display_name_2">Display Name</string>
+    <string name="user_default_status">User default status</string>
+    <string name="send_friend_request">Send Friend Request</string>
+    <string name="total_friends">Total Friends</string>
+    <string name="users_status">Users Status</string>
+    <string name="display_users_name">Display Users Name</string>
+    <string name="decline_friend_request">DECLINE FRIEND REQUEST</string>
+    <string name="enter_message">Enter Message</string>
+
+
 
 </resources>

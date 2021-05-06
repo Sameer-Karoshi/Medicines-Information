@@ -6,7 +6,8 @@ android {
     buildToolsVersion "29.0.3"
     defaultConfig {
         applicationId "com.example.text_recognition_app"
-        minSdkVersion 15
+        minSdkVersion 16
+        multiDexEnabled true
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -14,6 +15,7 @@ android {
     }
     buildTypes {
         release {
+            multiDexKeepFile file('multidex-config.txt')
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
@@ -21,15 +23,24 @@ android {
 }
 
 dependencies {
+    implementation 'androidx.multidex:multidex:2.0.1'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    implementation 'com.android.support:appcompat-v7:29.+'
+
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
-    testImplementation 'junit:junit:4.12'
+    implementation 'com.google.firebase:firebase-auth:19.3.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.preference:preference:1.1.1'
+    implementation 'com.google.firebase:firebase-database:19.3.1'
+    implementation 'com.google.firebase:firebase-storage:19.1.1'
+    implementation 'com.google.firebase:firebase-messaging:20.2.1'
+    implementation 'com.google.firebase:firebase-core:17.4.3'
+    testImplementation 'junit:junit:4.13'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
 
 
     //Image crop library
@@ -37,7 +48,30 @@ dependencies {
 
 
     //Image to text google  library
-    implementation 'com.google.android.gms:play-services-vision:16.2.0'
+    implementation 'com.google.android.gms:play-services-vision:20.1.0'
+    ext.supportLibraryVersion = '28.0.0'
+
+    // 1: Design Support Library
+    implementation "com.android.support:design:$supportLibraryVersion"
+// 2: CardView
+    implementation "com.android.support:cardview-v7:$supportLibraryVersion"
+
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    // implementation 'com.google.firebase:firebase-core:11.0.2'
+
+    implementation 'com.firebaseui:firebase-ui-database:1.2.0'
+
+    implementation 'com.iceteck.silicompressorr:silicompressor:2.2.3'
+
+    implementation 'id.zelory:compressor:2.0.0'
+
+    implementation 'com.squareup.okhttp:okhttp:2.7.5'
+    //implementation 'com.android.support.'
+
+
 }
 
 

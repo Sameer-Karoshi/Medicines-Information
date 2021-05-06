@@ -80,14 +80,17 @@
 
         </LinearLayout>
     </ScrollView>
-<Button
-    android:id="@+id/button"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="open ResultActivity"
-    android:layout_centerHorizontal="true"
-    android:layout_centerInParent="true" />
-
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="69dp"
+        android:layout_marginBottom="19dp"
+        android:text="OPEN MEDICINES INFO" />
 
 
 </RelativeLayout>
